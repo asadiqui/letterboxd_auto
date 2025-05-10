@@ -17,11 +17,11 @@
 // @match        https://letterboxd.com/*/followers/page/*/
 // @match        https://letterboxd.com/*/following/
 // @match        https://letterboxd.com/*/following/page/*/
+// @match        https://letterboxd.com/*/film/*/likes/
+// @match        https://letterboxd.com/*/film/*/likes/page/*/
 // @match        https://letterboxd.com/activity/
 // @match        https://letterboxd.com/*/friends/film/*/reviews/
 // @match        https://letterboxd.com/*/friends/film/*/reviews/page/*/
-// @match        https://letterboxd.com/*/film/*/likes/
-// @match        https://letterboxd.com/*/film/*/likes/page/*/
 // @match        https://letterboxd.com/film/*/reviews/
 // @match        https://letterboxd.com/film/*/reviews/page/*/
 // @match        https://letterboxd.com/film/*/reviews/by/added/
@@ -58,8 +58,6 @@
                 `\/activity\/|` +
                 `\/.*\/friends\/film\/.*\/reviews\/|` +
                 `\/.*\/friends\/film\/.*\/reviews\/page\/.*\/|` +
-                `\/.*\/film\/.*\/likes\/|` +
-                `\/.*\/film\/.*\/likes\/page\/.*\/|` +
                 `\/film\/.*\/reviews\/|` +
                 `\/film\/.*\/reviews\/page\/.*\/|` +
                 `\/film\/.*\/reviews\/by\/added\/|` +
@@ -68,7 +66,7 @@
                 `\/.*\/films\/reviews\/page\/.*\/` +
                 `)$`
             );
-
+			// Check if the current URL matches the auto-like regex
             if (autoLikeRegex.test(window.location.href)) {
                 startAutoLike();
             } else {
