@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Letterboxd Auto-Follow Auto-like
 // @description  Adds a button to auto-follow users and auto-like reviews on dedicated pages for Letterboxd
-// @version      1.4
+// @version      1.5
 // @author       asadiqui
 // @namespace    http://asadiqui.dev/letterboxd
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=letterboxd.com
