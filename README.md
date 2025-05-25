@@ -11,9 +11,11 @@ auto-follow | auto-like
 [... /film/\*/likes/page/\*/](https://letterboxd.com/film/*/likes/page/*/) | [... /\*/film/\*/reviews/](https://letterboxd.com/*/film/*/reviews/)
 [... /film/\*/members/](https://letterboxd.com/film/*/members/) | [... /\*/film/\*/reviews/page/\*/](https://letterboxd.com/*/film/*/reviews/page/*/)
 [... /film/\*/members/page/\*/](https://letterboxd.com/film/*/members/page/*/) | [... \/film/\*/reviews/by/added/](https://letterboxd.com/film/*/reviews/by/added/)
-[... /film/\*/members/rated/\*/by/rating/](https://letterboxd.com/film/*/members/rated/*/by/rating/) | [... \/film/\*/reviews/by/added/page/\*/](https://letterboxd.com/film/*/reviews/by/added/page/*/)
-[... /film/\*/members/rated/\*/by/rating/page/\*/](https://letterboxd.com/film/*/members/rated/*/by/rating/page/*/) | [... /\*/films/reviews/](https://letterboxd.com/*/films/reviews/)
-[... /\*/followers/](https://letterboxd.com/*/followers/) | [... /\*/films/reviews/page/\*/](https://letterboxd.com/*/films/reviews/page/*/)
+[... /film/\*/members/rated/\*/](https://letterboxd.com/film/*/members/rated/*/) | [... \/film/\*/reviews/by/added/page/\*/](https://letterboxd.com/film/*/reviews/by/added/page/*/)
+[... /film/\*/members/rated/\*/page/\*/](https://letterboxd.com/film/*/members/rated/*/page/*/) | [... /\*/films/reviews/](https://letterboxd.com/*/films/reviews/)
+[... /film/\*/members/rated/\*/by/rating/](https://letterboxd.com/film/*/members/rated/*/by/rating/) | [... /\*/films/reviews/page/\*/](https://letterboxd.com/*/films/reviews/page/*/)
+[... /film/\*/members/rated/\*/by/rating/page/\*/](https://letterboxd.com/film/*/members/rated/*/by/rating/page/*/) | 
+[... /\*/followers/](https://letterboxd.com/*/followers/) | 
 [... /\*/followers/page/\*/](https://letterboxd.com/*/followers/page/*/) | 
 [... /\*/following/](https://letterboxd.com/*/following/) | 
 [... /\*/following/page/\*/](https://letterboxd.com/*/following/page/*/) | 
