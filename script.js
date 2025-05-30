@@ -1,39 +1,41 @@
 // ==UserScript==
-// @name         Letterboxd Auto-Follow Auto-like
-// @description  Adds a button to auto-follow users and auto-like reviews on dedicated pages for Letterboxd
-// @version      1.6
-// @author       asadiqui
-// @namespace    http://asadiqui.dev/letterboxd
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=letterboxd.com
-// @match        https://letterboxd.com/film/*/fans/
-// @match        https://letterboxd.com/film/*/fans/page/*/
-// @match        https://letterboxd.com/film/*/likes/
-// @match        https://letterboxd.com/film/*/likes/page/*/
-// @match        https://letterboxd.com/film/*/members/
-// @match        https://letterboxd.com/film/*/members/page/*/
-// @match        https://letterboxd.com/film/*/members/rated/*/
-// @match        https://letterboxd.com/film/*/members/rated/*/page/*/
-// @match        https://letterboxd.com/film/*/members/rated/*/by/rating/
-// @match        https://letterboxd.com/film/*/members/rated/*/by/rating/page/*/
-// @match        https://letterboxd.com/*/followers/
-// @match        https://letterboxd.com/*/followers/page/*/
-// @match        https://letterboxd.com/*/following/
-// @match        https://letterboxd.com/*/following/page/*/
-// @match        https://letterboxd.com/*/film/*/likes/
-// @match        https://letterboxd.com/*/film/*/likes/page/*/
-// @match        https://letterboxd.com/activity/
-// @match        https://letterboxd.com/*/friends/film/*/reviews/
-// @match        https://letterboxd.com/*/friends/film/*/reviews/page/*/
-// @match        https://letterboxd.com/film/*/reviews/
-// @match        https://letterboxd.com/film/*/reviews/page/*/
-// @match        https://letterboxd.com/film/*/reviews/by/added/
-// @match        https://letterboxd.com/film/*/reviews/by/added/page/*/
-// @match        https://letterboxd.com/*/films/reviews/
-// @match        https://letterboxd.com/*/films/reviews/page/*/
-// @grant        none
-// @license      MIT
-// @downloadURL	https://update.greasyfork.org/scripts/534538/Letterboxd%20Auto-Follow%20Auto-like.user.js
-// @updateURL	https://update.greasyfork.org/scripts/534538/Letterboxd%20Auto-Follow%20Auto-like.meta.js
+// @name        Letterboxd Auto-Follow Auto-like
+// @description Adds a button to auto-follow users and auto-like reviews on dedicated pages for Letterboxd
+// @version     1.7
+// @author      asadiqui
+// @namespace   http://asadiqui.dev/letterboxd
+// @icon        https://www.google.com/s2/favicons?sz=64&domain=letterboxd.com
+// @match       https://letterboxd.com/film/*/fans/
+// @match       https://letterboxd.com/film/*/fans/page/*/
+// @match       https://letterboxd.com/film/*/likes/
+// @match       https://letterboxd.com/film/*/likes/page/*/
+// @match       https://letterboxd.com/film/*/members/
+// @match       https://letterboxd.com/film/*/members/page/*/
+// @match       https://letterboxd.com/film/*/members/rated/*/
+// @match       https://letterboxd.com/film/*/members/rated/*/page/*/
+// @match       https://letterboxd.com/film/*/members/rated/*/by/rating/
+// @match       https://letterboxd.com/film/*/members/rated/*/by/rating/page/*/
+// @match       https://letterboxd.com/*/followers/
+// @match       https://letterboxd.com/*/followers/page/*/
+// @match       https://letterboxd.com/*/following/
+// @match       https://letterboxd.com/*/following/page/*/
+// @match       https://letterboxd.com/*/film/*/likes/
+// @match       https://letterboxd.com/*/film/*/likes/page/*/
+// @match       https://letterboxd.com/activity/
+// @match       https://letterboxd.com/*/friends/film/*/reviews/
+// @match       https://letterboxd.com/*/friends/film/*/reviews/page/*/
+// @match       https://letterboxd.com/*/friends/film/*/reviews/rated/*/
+// @match       https://letterboxd.com/*/friends/film/*/reviews/rated/*/page/*/
+// @match       https://letterboxd.com/film/*/reviews/
+// @match       https://letterboxd.com/film/*/reviews/page/*/
+// @match       https://letterboxd.com/film/*/reviews/by/added/
+// @match       https://letterboxd.com/film/*/reviews/by/added/page/*/
+// @match       https://letterboxd.com/*/films/reviews/
+// @match       https://letterboxd.com/*/films/reviews/page/*/
+// @grant       none
+// @license     MIT
+// @downloadURL https://update.greasyfork.org/scripts/534538/Letterboxd%20Auto-Follow%20Auto-like.user.js
+// @updateURL   https://update.greasyfork.org/scripts/534538/Letterboxd%20Auto-Follow%20Auto-like.meta.js
 // ==/UserScript==
 
 (function() {
@@ -60,6 +62,8 @@
                 `\/activity\/|` +
                 `\/.*\/friends\/film\/.*\/reviews\/|` +
                 `\/.*\/friends\/film\/.*\/reviews\/page\/.*\/|` +
+                `\/.*\/friends\/film\/.*\/reviews\/rated\/.*\/|` +
+                `\/.*\/friends\/film\/.*\/reviews\/rated\/.*\/page\/.*\/|` +
                 `\/film\/.*\/reviews\/|` +
                 `\/film\/.*\/reviews\/page\/.*\/|` +
                 `\/film\/.*\/reviews\/by\/added\/|` +
